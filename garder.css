@@ -1,0 +1,155 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Madimi One', cursive;
+}
+
+#game-canvas {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #768F5A;
+}
+
+#homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.29);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  padding: 10px;
+}
+
+#center-element {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.305);
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#nickname {
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  background: rgb(180, 176, 176);
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  outline: 0;
+  border: none;
+}
+#play {
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  background: rgb(81, 184, 81);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#game-mode,
+#play {
+  margin-bottom: 10px;
+}
+
+#game-mode {
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background: rgb(180, 176, 176);
+  outline: 0;
+  border: none;
+}
+#rights {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.305);
+  border: 1px solid black;
+}
+#about {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.305);
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#version {
+  margin-bottom: 10px;
+}
+#settings {
+  background: rgba(0, 0, 0, 0.305);
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+#settings:hover {
+  transform: scale(1.2);
+}
+#store {
+  background: rgba(0, 0, 0, 0.305);
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: transform 0.3s ease-in-out;
+}
+#store:hover {
+  transform: scale(1.2);
+}
+#top-right-container {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  z-index: 1;
+}
+#content-container.flex {
+  display: flex;
+}
+#content-container {
+  position: absolute;
+  top: 0;
+  display: none;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.305);
+  z-index: 1;
+}
+#ingame-display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

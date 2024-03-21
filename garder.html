@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="garder.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap">
+</head>
+<body style="user-select: none;">
+  <canvas id="game-canvas"></canvas>
+  <div id="ingame-display"></div>
+  <div id="homepage">
+    <div id="content-container"></div>
+    <div id="top-right-container">
+      <div id="settings" style="cursor: pointer;">
+        <span style="color: white; font-size: 20px; font-weight: bolder; padding: 5px;">Settings</span>
+      </div>
+      <div id="store" style="cursor: pointer;">
+        <span style="color: white; font-size: 20px; font-weight: bolder; padding: 5px;">Store</span>
+      </div>
+    </div>
+    
+    <div id="title"><span style="font-size: 50px;">Garder.io</span></div>
+    <div id="version"><span style="font-size: 30px; color: red;"></span></div>
+    <div id="center-element">
+      <input type="text" id="nickname" placeholder="Nickname...">
+      <select id="game-mode">
+        <option value="mode-sb">Sandbox</option>
+        <option value="mode-cs">Classic</option>
+      </select> <br>
+      <button id="play">PLAY</button>
+    </div>
+    <div id="rights">
+      <span style="text-align: center;">
+        <footer>
+          <span style="font-size: 15px;">&copy; 2024 Blugs. All rights reserved.</span> <br>
+          <span>Terms of Service <br> <a href="policy.txt" style="font-size: 20px;">Policy</a></span>
+        </footer>
+      </span>
+    </div>
+    <div id="about">
+      <a href="changelog.txt" style="color: white; margin-right: 10px;">Updates</a> <a href="about.txt" style="color: white;"> About</a>
+    </div>
+  </div>
+  
+  <script src="garder.js"></script>
+</body>
+</html>
